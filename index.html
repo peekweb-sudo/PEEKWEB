@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="assets/logo.png" alt="peek logo" />
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#footer">Contact</a>
+          </li>
+        </ul>
+
+        <a href="#footer">
+          <button>Get In Touch</button>
+        </a>
+        <img
+          onclick="openav()"
+          id="tems1"
+          class="tems"
+          src="./assets/menu_24dp_FFF_FILL0_wght400_GRAD0_opsz24.svg"
+          alt="" />
+      </nav>
+      <ul class="side-nav">
+        <img
+          onclick="closeNav()"
+          class="tems"
+          src="assets/close_24dp_FFF_FILL0_wght400_GRAD0_opsz24.svg"
+          alt="" />
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#footer">Contact</a>
+        </li>
+      </ul>
+    </header>
+
+    <main id="home" class="hero">
+      <div class="main showone container">
+        <img src="assets/Grid design-cuate.svg" alt="" />
+        <div class="hero-content">
+          <h1>
+            <span>
+              Ready to take your <br />
+              Business Growth <br />
+              to the next level?
+            </span>
+          </h1>
+          <p>Transforming Ideas into Digital Masterpieces</p>
+          <a href="#footer">
+            <button>Get Started</button>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <section class="modern-section">
+      <div class="container responsive showone modern-container">
+        <div class="modern">
+          <h1>MODERN</h1>
+          <p>Modern websites that are visually appealing and user-friendly</p>
+          <br />
+          <p>
+            At <span>PEEK-WEB</span> , we are dedicated to creating websites
+            that not only look stunning but also deliver exceptional
+            performance. Dive into our world of innovative web solutions and see
+            how we can turn your vision into a reality.
+          </p>
+        </div>
+        <h1 class="h1">DESIGN</h1>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-container responsive showone container">
+        <img src="assets/team.jpg" alt="" />
+        <div class="about-info">
+          <h2>About Us</h2>
+          <h3>Welcome to PEEK-WEB, where creativity meets technology.</h3>
+          <br />
+          <p>
+            At <span>PEEK-WEB,</span> we are passionate about building
+            exceptional digital experiences. Our team of expert developers,
+            designers, and strategists collaborate to bring your vision to life
+            with innovative and tailored web solutions.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <div class="showone responsive mission">
+          <img src="./assets/SEO analytics team-cuate.svg" alt="" />
+          <div class="mission-container">
+            <h2>Our Mission</h2>
+            <p>
+              Our mission is simple: to empower businesses by creating powerful,
+              engaging, and responsive websites that drive results. We believe
+              in the transformative power of the web and are committed to
+              helping our clients harness this power to achieve their goals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section id="services">
+      <div class="container">
+        <h1>
+          High-impact services <br />
+          for your business
+        </h1>
+
+        <div class="services-container">
+          <div class="service">
+            <img
+              src="assets/show_chart_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+              alt="" />
+            <h2>Custom Website Development</h2>
+            <p>
+              From concept to launch, we craft bespoke websites that reflect
+              your brand's unique identity.
+            </p>
+          </div>
+          <div class="service">
+            <img
+              src="assets/storefront_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+              alt="" />
+            <h2>E-commerce Solutions</h2>
+            <p>
+              We build robust online stores that drive sales and enhance
+              customer experience.
+            </p>
+          </div>
+          <div class="service">
+            <img
+              src="assets/show_chart_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+              alt="" />
+            <h2>SEO & Digital Marketing</h2>
+            <p>
+              We optimize your online presence to boost visibility and attract
+              your target audience.
+            </p>
+          </div>
+          <div class="service">
+            <img
+              src="./assets/domain_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+              alt="" />
+            <h2>Web Applications</h2>
+            <p>
+              Our team develops dynamic web applications tailored to your
+              specific needs.
+            </p>
+          </div>
+          <div class="service">
+            <img src="assets/web-content-creator-icon.svg" alt="" />
+            <h2>Maintenance & Support</h2>
+            <p>
+              We provide ongoing support and maintenance to keep your website
+              running smoothly.
+            </p>
+          </div>
+          <div class="service">
+            <img src="assets/speedometer-black-icon.svg" alt="" />
+            <h2>Web Critic Services</h2>
+            <p>
+              Comprehensive reviews and critiques of your existing website,
+              providing actionable insights to enhance user experience,
+              performance, and overall design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="choose">
+      <div class="container">
+        <h1>Why Choose Us</h1>
+        <div class="choose-container">
+          <div class="choose-item">
+            <h2>Expertise</h2>
+            <p>
+              Our team consists of seasoned professionals with diverse skills
+              and extensive industry experience.
+            </p>
+          </div>
+          <div class="choose-item">
+            <h2>Innovation</h2>
+            <p>
+              We stay ahead of the curve with the latest technologies and
+              trends.
+            </p>
+          </div>
+          <div class="choose-item">
+            <h2>Quality</h2>
+            <p>
+              We are committed to delivering high-quality work that exceeds your
+              expectations.
+            </p>
+          </div>
+          <div class="choose-item">
+            <h2>Customer-Centric</h2>
+            <p>
+              Your satisfaction is our top priority. We listen, understand, and
+              deliver solutions that meet your needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#1956B4"
+        fill-opacity="1"
+        d="M0,192L48,208C96,224,192,256,288,256C384,256,480,224,576,213.3C672,203,768,213,864,202.7C960,192,1056,160,1152,170.7C1248,181,1344,235,1392,261.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+    <footer id="footer">
+      <div class="container showone footer-items">
+        <form>
+          <h1>CONTACT US</h1>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message" >
+            </textarea>
+          <button>SUBMIT</button>
+        </form>
+
+        <div class="contact">
+          <h1>Contact Info</h1>
+          <p>Phone: +2349038923574</p>
+          <p>Email: peekweb1@gmail.com</p>
+          <p>address: Osogbo, Osun State, Nigeria.</p>
+          <img src="./assets/Copy_of_Blue_Technology___Gaming_Logo-removebg-preview.png" alt="" />
+        </div>
+     
+      </div>
+      <div class="container copy">
+           <div class="arrow">
+      <a href="#home"><img src="./assets/arrow_upward_24dp_FFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a>    
+        </div>
+        <hr />
+        <p>&copy;2024 PeekWeb. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
